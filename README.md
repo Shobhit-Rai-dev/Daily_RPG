@@ -2,6 +2,15 @@
 
 > Turn your everyday tasks into an rpg-styled adventure.
 
+## Team
+
+| Member | Role |
+|---|---|
+| **Parth Mhaske** | Frontend Development |
+| **Shobhit Rai** | Development |
+| **Mayuresh Tulphone** | Development |
+| **Parth Mhaskar** | Development |
+
 ## About the Project
 
 **Daily RPG** is a gamified productivity application that transforms everyday tasks and personal goals into an RPG-style adventure.
@@ -42,14 +51,7 @@ Clone the repository:
 git clone https://github.com/Shobhit-Rai-dev/Daily_RPG.git
 ```
 
-## Team
 
-| Member | Role |
-|---|---|
-| **Parth Mhaske** | Frontend Development |
-| **Shobhit Rai** | Development |
-| **Mayuresh Tulphone** | Development |
-| **Parth Mhaskar** | Development |
 
 ## Vision
 
