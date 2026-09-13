@@ -1,56 +1,58 @@
-# Daily RPG (Life RPG)
+# Daily RPG
 
-A gamified daily-quest tracker: complete real-life quests to earn XP, gold,
-and stat gains, level up, and spend gold in the shop. Originally a
-frontend-only prototype backed by localStorage; now backed by a real
-Express + MongoDB API.
+> Turn your everyday tasks into an rpg-styled adventure.
 
-```
-life-rpg/
-  frontend/    React + Vite app          -> see frontend/README (below) / this file
-  backend/     Express + MongoDB API     -> see backend/README.md
-```
+## About the Project
 
-## Running it locally
+**Daily RPG** is a gamified productivity application that transforms everyday tasks and personal goals into an RPG-style adventure.
 
-You need two terminals — one for each half.
+Instead of treating a to-do list as a simple checklist, the application lets users complete quests, earn XP and coins, level up their character, and progress through a fantasy-inspired interface.
 
-**1. Backend**
+The project combines productivity with retro RPG mechanics to make completing daily responsibilities more engaging and rewarding.
+
+## Key Features
+
+- RPG-style dashboard for tracking daily progress
+- Quest system for turning tasks into quests
+- XP and leveling system
+- Coins and rewards
+- Character selection and progression
+- In-game shop
+- User profile
+- Login and registration UI
+- Responsive, game-inspired interface
+
+## Tech Stack
+
+### Frontend
+- React
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+
+### Backend
+-- ADD SOMETHING, IDK --
+
+## Running the Frontend Locally
+
+Clone the repository:
 
 ```bash
-cd backend
-npm install
-cp .env.example .env    # edit MONGODB_URI / JWT_SECRET as needed
-npm run dev              # http://localhost:5000
+git clone https://github.com/Shobhit-Rai-dev/Daily_RPG.git
 ```
 
-**2. Frontend**
+## Team
 
-```bash
-cd frontend
-npm install
-npm run dev               # http://localhost:5173
-```
+| Member | Role |
+|---|---|
+| **Parth Mhaske** | Frontend Development |
+| **Shobhit Rai** | Development |
+| **Mayuresh Tulphone** | Development |
+| **Parth Mhaskar** | Development |
 
-`vite.config.js` already proxies `/api` requests to `http://localhost:5000`,
-so as long as the backend is running on port 5000 the frontend needs no
-extra configuration. Open `http://localhost:5173`, register a new hero, and
-you're in — every action now persists to MongoDB instead of the browser's
-localStorage.
+## Vision
 
-## What changed from the original prototype
+Our goal is to make productivity feel less like a chore and more like a game — turning real-world progress into visible RPG progression and rewarding users for completing their daily goals.
 
-- `frontend/src/services/api.js` no longer has a localStorage
-  mock/fallback database. It only talks to the backend now, and a failed
-  request throws a real error (shown as a toast) instead of silently
-  faking success.
-- `RPGContext`'s `setFixedGender` / `setActiveJob` used to apply changes
-  locally even if the save failed (a leftover from the mock-fallback
-  days). They now surface the real error instead, since the server is the
-  single source of truth.
-- The Login page's "any email/password works" demo note and pre-filled
-  credentials are gone — you need a real registered account now.
-- Everything else in the frontend — components, styling, game feel — is
-  unchanged.
-
-See `backend/README.md` for the full API reference and setup details.
+---
