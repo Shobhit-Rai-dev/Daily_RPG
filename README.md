@@ -7,9 +7,9 @@
 | Member | Role |
 |---|---|
 | **Parth Mhaske** | Frontend Development |
-| **Shobhit Rai** | Development |
-| **Mayuresh Tulphone** | Development |
-| **Parth Mhaskar** | Development |
+| **Shobhit Rai** | Frontend Development |
+| **Mayuresh Tulphone** | Backend Development |
+| **Parth Mhaskar** | Backend Development |
 
 ## About the Project
 
